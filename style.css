@@ -1,0 +1,398 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+@import url('http://fonts.cdnfonts.com/css/DM Sans'); 
+@import url('http://fonts.cdnfonts.com/css/Inter');              
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+}
+/* change all header element */
+header{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 150px;
+        padding-left: 130px;
+        background-color:  #E5E5E5; 
+        z-index: 100;      
+       
+}
+/* change made element present inside navbar */
+.navbar{            
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px; 
+        list-style: none; 
+        margin-left: 10px; 
+}
+/* change made inside anchortags in header */
+header a{
+        color: black;
+        text-decoration: none;
+        font-weight: 400;
+}
+
+ul a{
+    
+    font-size: 1rem;
+}
+/*code for home part*/
+.home{
+  padding-top: 100px;
+  background-color:  #E5E5E5;
+  margin-bottom: 70px;
+  height: 70vh;
+}
+
+.home .headline{       
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        justify-content: left;
+        position: relative;
+        width: 100%;    
+        padding-left: 120px;
+        margin-top: 54px; 
+}
+    .headline .heading1{
+        font-family: 'DM Sans';
+        font-size: 3rem;
+        width: 50%;      
+      
+    }
+    .headline .heading2{
+        font-family: 'DM Sans';
+        margin-top: 54px;
+        font-size: 1.3rem;
+        padding-right: 1304x;
+        margin-left: 40px;
+        
+        width:65%;
+    }
+    .home .arrow{
+        position: absolute;
+        top: 400px;
+        left: 129px;
+
+    }
+    .project1 {
+       height: 50vh;
+       padding-top: 100px;
+       background-color: #E5E5E5;
+       display: flex;
+       width: 500px;
+       margin-top: 160px;
+       width: 70%;
+
+      
+    }
+    .project1-text .project1name{
+        font-family: "Inter";
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+        padding-left: 130px;
+
+    }
+    .project1-desc{
+        font-family: "Inter";
+        padding-left: 130px;
+        width: 33%;  
+        position: absolute;
+        letter-spacing: -0.03em;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+ .other-details1{
+    font-family: "Inter";
+    position: relative;
+    font-size: 1rem;
+    color: #606060;
+    font-weight: 200;
+    top: 110px;
+    left: 130px;
+    width: 50%;
+ }
+   .project1-image img{
+     height: 300px;
+     width: 500px;
+     position: absolute;
+     Right: 180px;
+  }
+
+    .subtitle1{
+        position: relative;      
+        font-size: 1.4rem;
+        top: 150px;
+        left: 130px;
+        width: 300px;
+        border-bottom: solid 1px black;
+        top: 175px;
+    }
+    .bar{
+        width: 79%;
+        height: 1px;
+        background-color: rgb(15, 10, 14);
+        position: absolute;
+        top: 1050px;
+        left: 130px;
+    }
+    .project2 {
+        height: 60vh;
+        background-color: #E5E5E5;
+        display: flex;
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 200px;
+        width: 70%;    
+     }
+     .project2-text .project2name{
+        font-family: "Inter";
+         margin-bottom: 30px;
+         padding-left: 110px;
+         font-size: 1.4rem;
+ 
+     }
+     .project2-desc{
+        font-family: "Inter";
+        font-weight: 400;
+         padding-left: 110px;
+         width: 33%;  
+         position: absolute;
+         letter-spacing: -0.03em;
+         font-size: 1rem;
+     }
+ 
+  
+    .project2-image img{
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        Right: 180px;
+    
+   }
+ 
+ .subtitle2{
+         position: relative;     
+         font-size: 1.4rem;
+         left: 110px;
+         width: 190px;
+         border-bottom: solid 1px black;
+         top: 200px;
+ }
+.bar2{
+        top: 1550px;
+ }
+     .project3 {
+        height: 65vh;
+        background-color: #E5E5E5;
+        display: flex;
+        width: 500px;
+        margin-left: 20px;
+        margin-top: 200px;
+        width: 70%;
+ 
+       
+     }
+     .project3-text .project3name{
+        font-family: "Inter";
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+        padding-left: 110px;
+ 
+     }
+     .project3-desc{
+        font-family: "Inter";
+         padding-left: 110px;
+         width: 30%;  
+         position: absolute;
+         letter-spacing: -0.03em;
+         font-weight: 400;
+         font-size: 1rem;
+     }
+ 
+    .project3-image img{
+        height: 300px;
+        width: 500px;
+        position: absolute;
+        right: 180px;
+    
+   }
+ 
+ .subtitle3{
+         font-family: "Inter";
+         position: relative;    
+         font-size: 1.4rem;
+         top: 200px;
+         left: 130px;
+         width: 130px;
+         border-bottom: solid 1px black;
+        
+ }
+
+ .bar3{
+        top: 2200px;
+
+ }
+ .aboutme{
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-top: 30px;
+}
+.intro{
+    padding-left: 130px;
+    position: relative;
+    font-size: 1.4rem;
+    width: 37%;
+}
+.profile-photo img{
+    
+    height: 400px;
+    width: 500px;
+    position: relative;
+   padding-right: 220px;
+   text-align: left;
+}
+.myself-para1{
+    font-family: 'DM SANS';
+    font-size: .5rem;
+    width: 50%;
+    padding-left: 130px;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.myself-para2{
+    Font-family: 'DM SANS';
+    font-size: .5rem;
+    width: 50%;
+    padding-left: 130px;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 25px;
+}
+.details{
+    top: 500px;
+   height: 140px;
+    width: 100%;
+    position: absolute;
+    margin-left: 100px;
+    bottom: -210px;
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    justify-content: space-between;
+ }
+ .row1{
+    display: flex;
+    justify-content: space-between;
+ }
+ .row2{
+    display: flex;
+    justify-content: space-between;
+ }
+ .main-software{
+    font-size: 1rem;
+    text-decoration: underline;
+    position: absolute;
+    left: 30px;
+ }
+ .main-skills{
+    font-size: 1rem;
+    text-decoration: underline;
+    position: absolute;
+    left: 30px;
+ }
+ .para1{
+    font-size: .8rem;
+    position: absolute;
+    left: 200px;
+    text-align: left;
+    width: 30%;
+ }
+ .para2{
+    font-size: .8rem;
+   position: absolute;
+    left: 200px;
+    text-align: left;
+    top: 40px;
+ }
+ .para3{
+    font-size: .8rem;
+    position: absolute;
+    left: 200px;
+    text-align: left;
+    top:70px;
+    width: 27%;
+ }
+.bar4{
+    top: 110vh;
+}
+ .last{
+    font-family: 'DN SANS';
+   
+    position: absolute;
+    width: 100%;
+    top: 115vh;
+    left: 160px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: space-between;
+ }
+ .last h1{
+    width: 50%;
+    font-weight: 100;
+ }
+ .last img{
+    padding-left: 10px;
+   
+ }
+ .mycontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+    padding-bottom: 50px;
+ }
+ .mycontact p{
+  font-size: .8rem;
+ }
+
+ /*footer part*/
+ footer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border: 1px solid  #E5E5E5;
+    bottom: .1px;
+    padding-left: 130px;
+    background-color:  #E5E5E5; 
+    z-index: 100; 
+       
+}
+.social-media{            
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px; 
+        list-style: none; 
+        margin-left: 10px; 
+}
+.name{
+    color: #2429AF;
+}
+
